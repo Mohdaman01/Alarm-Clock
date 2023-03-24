@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2 id="current-time" class="text-center">00:00:00 AM</h2>
+        
+        <div id="alarm" class="text-center">
+            <label>
+                <select name="set-hours" id="set-hours"></select>
+            </label>
+            <span>:</span>
+            <label>
+                <select name="set-min" id="set-min"></select>
+            </label>
+            <span>:</span>
+            <label>
+                <select name="set-AM/PM" id="set-AM/PM">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </label>
+                 
+                <div id="set-btn" class="btn"onclick=setAlarm()>
+                    Set Alarm
+                </div>
+                <!-- <div id="clear-btn" class="btn" onclick=clearAlarm()>
+                    Clear Alarm
+                </div> -->
+            
+        </div>
+
+        <!-- <div class="alarm-list-container">
+            <ul id="alarm-list">
+                <li>
+                 <label for="task1">04:05:00 AM</label>
+                <img src="assets/ios-bin-150.png" class="delete" data-id="12"/>
+            </li>
+            </ul>
+        </div> -->
+
+    </div>
+
+    <div class="alarm-list-container">
+        <h2 class="text-center">Alarms</h2>
+        <ul id="alarm-list">
+            <!-- <li>
+             <label for="task1">04:05:00 AM</label>
+            <img src="assets/ios-bin-150.png" class="delete" data-id="12"/>
+        </li> -->
+        </ul>
+    </div>
+
+    <footer>
+        <div class="text-center">
+             <h2>Develop and design By <span id="myName">MOHD AMAN</span></h2>
+           </div>
+    </footer>
+
+
+    <!-- custom js file -->
+
+    <script src="script.js"></script>
+</body>
+</html>
