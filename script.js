@@ -133,29 +133,6 @@ setMinutes();
 
   var alarmTime = selectedHour + ":" + selectedMin + ":" + sec +" "+selectedAP;
 
-  // console.log('alarmTime:' + alarmTime);
-
-
-  // setInterval(()=>{
-
-  //   var currentTime = document.getElementById('current-time').textContent;
-
-  //   if(localStorage.length>0){
-
-  //     for(let i=0;i<localStorage.length;i++){
-
-  //         if(localStorage.getItem(localStorage.key(i)) === currentTime){
-
-  //           sound.play();
-
-  //         }
-
-  //       }
-
-  //     }
-
-  //   },1000);
-
   const id=Date.now();
 
   // console.log(id);
