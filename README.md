@@ -3,13 +3,13 @@ This project is a Alarm Clock develop only using HTML,CSS and vanilla JAVASCRIPT
 
 #Technology Used
 
--> HTML.
+ > HTML.
 
--> CSS.
+ > CSS.
 
--> VANILLA JS.
+ > VANILLA JS.
 
--> Local Storage of the Brower.
+ > Local Storage of the Brower.
 
  #Features
  
