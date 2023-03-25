@@ -5,7 +5,7 @@
     transition: 0.3s ease-in-out;
 }
 body{
-  background-image: url('/assets/milad-fakurian-wNsHBf_bTBo-unsplash.jpg');
+  background-image: url("./assets/milad-fakurian-wNsHBf_bTBo-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
