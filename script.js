@@ -152,6 +152,7 @@ setInterval(()=>{
         if(localStorage.getItem(localStorage.key(i)) === currentTime){
 
           sound.play();
+          alert("your "+localStorage.getItem(localStorage.key(i))+" alarm is Ringing!!")
         }
 
       }
